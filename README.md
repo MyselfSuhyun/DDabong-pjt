@@ -44,9 +44,178 @@
 
 ### A. 프로젝트 구조
 
-| Front Area(FINAL-PJT-BACK)                                   | Back Area(FINAL-PJT-FRONT)                                   |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| back/<br />    asgi.py<br />    settings.py<br />    urls.py<br />    wsgi.py<br />    api<br />    tmdb.py<br />    tmdbsend.py<br />    accounts/<br />    migrations/<br />    profile/<br />    admin.py<br />    apps.py<br />    models.py<br />    serializers.py<br />    tests.py<br />    urls.py<br />    views.py<br />communities/<br />    migrations/<br />    admin.py<br />    apps.py<br />    models.py<br />    serializers.py<br />    tests.py<br />    urls.py<br />    views.py<br />movies/<br />    fixtures/<br />    migrations/<br />    admin.py<br />    apps.py<br />    models.py<br />    serializers.py<br />    tests.py<br />    urls.py<br />    views.py<br />movies/<br />    fixtures/<br />    migrations/<br />    admin.py<br />    apps.py<br />    models.py<br />    serializers.py<br />    tests.py<br />    urls.py<br />    views.py<br />static/<br />    images/<br />db.sqlite3<br />manage.py<br />requirements.txt<br />README.md | .history/<br />public/<br />src/<br />    assets/<br />    components/<br />       accounts<br />           TheChangeInformation.vue<br />           TheFollowersMovie.vue<br />           TheFollowingsMovie.vue<br />           TheLikeMovies<br />           TheMyBoards.vue<br />           TheProfileMylinks.vue<br />           TheUserLike.vue<br />        admin/<br />           TheMovieList.vue<br />           TheMovieListItem.vue<br />           TheMovieSearch.vue<br />        boards/<br />           TheBoardLike.vue<br />           TheBoardList.vue<br />           TheBoardListItem.vue<br />           TheCommentForm.vue<br />           TheCommentListItem.vue<br />           TheGenreList.vue<br />           TheGenreListItem.vue<br />           TheRankingBoard.vue<br />           TheRankingFollower.vue<br />           TheRankingGenre.vue<br />           TheRankingMovie.vue<br />        genresearch/<br />           TheGenreList.vue<br />           TheGenreListItem.vue<br />           TheGenreSearchList.vue<br />           TheGenreSearchListItem.vue<br />        movies/<br />           TheDetailGenre.vue<br />           TheMovieLIke.vue<br />           TheMovieSame.vue<br />           TheMovieService.vue<br />           TheMovieStar.vue<br />           TheMovieStarForm.vue<br />           TheMovieStarItem.vue<br />           TheMovieYoutube.vue<br />        search<br />           SearchItem.vue<br />    http/<br />    router/<br />    store/<br />    views/<br />        accounts/<br />           Login.vue<br />           Profile.vue<br />           Signup.vue<br />           TheFollowers.vue<br />           TheFollowings.vue<br />           UserSearch.vue<br />        admin/<br />           Movie.vue<br />           MovieList.vue<br />       boards/<br />           BoardCreate.vue<br />           BoardDetail.vue<br />           Boards.vue<br />           BoardUpdate.vue<br />           RankingBoard.vue<br />        genressearch/<br />           GenreSearch.vue<br />        keywords/<br />           Keywords.vue<br />        movies/<br />           MovieDetail.vue<br />        search/<br />           Search.vue<br />        Home.vue<br />    App.vue<br />    main.js<br />babel.config.js<br />package-lock.json<br />package.json<br />README.md |
+#### Front Area(DDABONG-PJT-BACK)
+
+```
+ddabong-pjt
+  └─ddabong-pjt-back
+      │  .gitignore
+      │  db.sqlite3
+      │  manage.py
+      │  README.md
+      │  requirements.txt
+      │
+      ├─app
+      │  │  __init__.py
+      │  │  tmdb.py
+      │  │  tmdbsend.py
+      │
+      ├─accounts
+      │  │  __init__.py
+      │  │  admin.py
+      │  │  apps.py
+      │  │  models.py
+      │  │  serializers.py
+      │  │  tests.py
+      │  │  urls.py
+      │  │  views.py
+      │  │
+      │  ├─migrations
+      │  ├─profile
+      │
+      ├─back
+      │  │  __init__.py
+      │  │  asgi.py
+      │  │  settings.py
+      │  │  urls.py
+      │  │  wsgi.py
+      │
+      ├─communities
+      │  │  __init__.py
+      │  │  admin.py
+      │  │  apps.py
+      │  │  models.py
+      │  │  serializers.py
+      │  │  tests.py
+      │  │  urls.py
+      │  │  views.py
+      │  │
+      │  ├─migrations
+      │
+      ├─movies
+      │  │  __init__.py
+      │  │  admin.py
+      │  │  apps.py
+      │  │  models.py
+      │  │  tests.py
+      │  │  views.py
+      │  │
+      │  ├─migrations
+      │  ├─fixtures
+      │  │  movies.json
+      │
+      ├─static
+      │  ├─images
+      │
+      ├─media
+      │  ├─guild_img
+      │  │
+      │  └─origins
+```
+
+#### DDABONG-PJT-BACK
+
+```
+ddabong-pjt
+  └─ddabong-pjt-front
+      │  .gitignore
+      │  babel.config.js
+      │  package-lock.json
+      ├─public
+      │
+      ├─src
+      │  ├─assets
+      │	 │
+      │  ├─components
+      │	 │  ├─accounts
+      │	 │	│  │  TheChangeInformation.vue
+      │	 │	│  │  TheFollowersMovie.vue
+      │	 │	│  │  TheFollowingsMovie.vue
+      │	 │	│  │  TheLikeMovies.vue
+      │	 │	│  │  TheMyBoards.vue
+      │	 │	│  │  TheProfileMylinks.vue
+      │	 │	│  │  TheUserLike.vue
+      │  │	│
+      │	 │  ├─admin
+      │	 │	│  │  TheMovieList.vue
+      │	 │	│  │  TheMovieListItem.vue
+      │	 │	│  │  TheMovieSearch.vue
+      │  │	│
+      │	 │  ├─boards
+      │	 │	│  │  TheBoardLike.vue
+      │	 │	│  │  TheBoardList.vue
+      │	 │	│  │  TheBoardListItem.vue
+      │	 │	│  │  TheCommentForm.vue
+      │	 │	│  │  TheCommentListItem.vue
+      │	 │	│  │  TheGenreList.vue
+      │	 │	│  │  TheGenreListItem.vue
+      │	 │	│  │  TheRankingBoard.vue
+      │	 │	│  │  TheRankingFollower.vue
+      │	 │	│  │  TheRankingGenre.vue
+      │	 │	│  │  TheRankingMovie.vue
+      │  │	│
+      │	 │  ├─genresearch
+      │	 │	│  │  TheGenreList.vue
+      │	 │	│  │  TheGenreListItem.vue
+      │	 │	│  │  TheGenreSearchList.vue
+      │	 │	│  │  TheGenreSearchListItem.vue
+      │  │	│
+      │	 │  ├─movies
+      │	 │	│  │  TheDetailGenre.vue
+      │	 │	│  │  TheMovieLike.vue
+      │	 │	│  │  TheMovieSame.vue
+      │	 │	│  │  TheMovieService.vue
+      │	 │	│  │  TheMovieStar.vue
+      │	 │	│  │  TheMovieStarForm.vue
+      │	 │	│  │  TheMovieStarItem.vue
+      │	 │	│  │  TheMovieYoutube.vue
+      │  │	│
+      │	 │  ├─search
+      │	 │	│  │  SearchItem.vue
+      │  │
+      │  ├─http
+      │	 ├─router
+      │  ├─store
+      │  │
+      │	 ├─views
+      │	 │  ├─accounts
+      │	 │	│  │  Login.vue
+      │	 │	│  │  Profile.vue
+      │	 │	│  │  Signup.vue
+      │	 │	│  │  TheFollowers.vue
+      │	 │	│  │  TheFollowings.vue
+      │	 │	│  │  UserSearch.vue
+      │	 │	│ 
+      │	 │  ├─admin
+      │	 │	│  │  Movie.vue
+      │	 │	│  │  MovieList.vue
+      │	 │	│ 
+      │	 │  ├─boards
+      │	 │	│  │  BoardCreate.vue
+      │	 │	│  │  BoardDetail.vue
+      │	 │	│  │  Boards.vue
+      │	 │	│  │  BoardUpdate.vue
+      │	 │	│  │  RankingBoard.vue
+      │	 │	│ 
+      │	 │  ├─genressearch
+      │	 │	│  │  GenreSearch.vue
+      │	 │	│ 
+      │	 │  ├─keywords
+      │	 │	│  │  keywords.vue
+      │	 │	│ 
+      │	 │  ├─movies
+      │	 │	│  │  MovieDetail.vue
+      │	 │	│ 
+      │	 │  ├─search
+      │	 │	│  │  Search.vue
+      │	 │	│ 
+      │	 │  │  Home.vue
+      │	 │
+      │	 │  App.vue
+      │	 │  main.js
+```
+
+
 
 
 
