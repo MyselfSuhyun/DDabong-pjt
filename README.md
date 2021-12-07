@@ -52,7 +52,7 @@
 
 ### B. Model
 
-![ERD](.\images\ERD.jpg)
+![ERD](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/ERD.jpg)
 
 ### C. URL
 
@@ -126,18 +126,18 @@
 
 ### D. Component
 
-![1_com](.\images\1_com.jpg)
-![2_com](.\images\2_com.jpg)
-![3_com](.\images\3_com.jpg)
-![4_com](.\images\4_com.jpg)
-![5_com](.\images\5_com.jpg)
-![6_com](.\images\6_com.jpg)
-![7_com](.\images\7_com.jpg)
-![8_com](.\images\8_com.jpg)
-![9_com](.\images\9_com.jpg)
-![10_com](.\images\10_com.jpg)
-![11_com](.\images\11_com.jpg)
-![12_com](.\images\12_com.jpg)
+![1_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/1_com.jpg)
+![2_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/2_com.jpg)
+![3_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/3_com.jpg)
+![4_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/4_com.jpg)
+![5_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/5_com.jpg)
+![6_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/6_com.jpg)
+![7_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/7_com.jpg)
+![8_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/8_com.jpg)
+![9_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/9_com.jpg)
+![10_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/10_com.jpg)
+![11_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/11_com.jpg)
+![12_com](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/12_com.jpg)
 
 
 
@@ -176,9 +176,9 @@
 
 - 회원가입이 되어있지 않다면 회원가입을 유도할 수 있도록 a태그 걸어둔 텍스트 띄워줌(11/23)
 
-  ![1](.\images\1.png)
+  ![1](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/1.png)
 
-  ![2](.\images\2.png)
+  ![2](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/2.png)
   
   
 
@@ -197,11 +197,11 @@
 
 - 개인이 작성한 글 목록을 조회하여 체크 박스를 활용한 삭제 기능 구현(11/22)
 
-  ![3](.\images\3.png)
+  ![3](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/3.png)
 
-  ![4](.\images\4.png)
+  ![4](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/4.png)
 
-  ![5](.\images\5.png)
+  ![5](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/5.png)
   
   
 
@@ -213,9 +213,9 @@
 - 등록한 영화는 영화 목록에서 볼 수 있음(11/17)
 - 관리자가 아니면 영화 등록 페이지를 볼 수 없음(11/23)
 
-  ![6](.\images\6.png)
+  ![6](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/6.png)
 
-  ![7](.\images\7.png)
+  ![7](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/7.png)
 
   
 
@@ -231,7 +231,7 @@
 
 - 게시글 별 조회수 확인 가능(11/)
 
-  ![8](.\images\8.png)
+  ![8](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/8.png)
 
   
 
@@ -245,10 +245,10 @@
 
 - 랭킹 게시판의 직관성을 위하여 1위에 있는 영화와 사용자에게 왕관 아이콘 부여(11/25)
 
-  ![9_ran](.\images\9_ran.png)
-  ![10_ran](.\images\10_ran.png)
-  ![11_ran](.\images\11_ran.png)
-  ![12_ran](.\images\12_ran.png)
+  ![9_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/9_ran.png)
+  ![10_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/10_ran.png)
+  ![11_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/11_ran.png)
+  ![12_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/12_ran.png)
   
   
   
@@ -263,8 +263,8 @@
 
 - 커뮤니티에 작성한 글은 조회수 확인 가능함(11/)
 
-  ![13_ran](.\images\13_ran.png)
-  ![14_ran](.\images\14_ran.png)
+  ![13_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/13_ran.png)
+  ![14_ran](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/14_ran.png)
   
   
 
@@ -273,7 +273,7 @@
 - 데이터 베이스에 등록된 영화를 검색할 수 있는 페이지(11/19)
 - 영화 제목 혹은 영화 설명에 있는 키워드로 영화 검색 가능(11/21)
 
-![15_se](.\images\15_se.png)
+![15_se](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/15_se.png)
 
 
 
@@ -282,12 +282,12 @@
 - 영화의 포스터와 줄거리 등 상세 정보들을 볼 수 있는 페이지(11/20)
 - 탭을 통해서 줄거리, 별점, 관련 영화, 트레일러러 등을 볼 수 있음(11/22)
 
-![16_de](.\images\16_de.png)
-![17_se](.\images\17_se.png)
-![18_se](.\images\18_se.png)
-![19_se](.\images\19_se.png)
-![20_de](.\images\20_de.png)
-![21_de](.\images\21_de.png)
+![16_de](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/16_de.png)
+![17_se](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/17_se.png)
+![18_se](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/18_se.png)
+![19_se](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/19_se.png)
+![20_de](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/20_de.png)
+![21_de](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/21_de.png)
 
 
 
@@ -296,8 +296,8 @@
 + 찜한 영화를 기준으로 선호 장르를 파악하여 영화 추천하는 알고리즘 구현(11/23)
 + 사용자들이 등록한 키워드를 통해 키워드 추천이 가능하도록 도와주는 알고리즘 구현(11/25)
 
-![22_de](.\images\22_de.png)
-![23_rs](.\images\23_rs.PNG)
+![22_de](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/22_de.png)
+![23_rs](https://github.com/MyselfSuhyun/DDabong-pjt/blob/main/images/23_rs.PNG)
 
 
 
@@ -319,9 +319,6 @@
 
 사이트 URL : https://jwsh.netlify.app/
 
-FRONT_URL: https://lab.ssafy.com/yogjesi/final-pjt-front.git
-
-BACK_URL:  https://lab.ssafy.com/yogjesi/final-pjt-back.git
 
 
 
